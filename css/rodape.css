@@ -42,3 +42,11 @@
         transform: scale(1.5);
     }
 }
+
+/* Responsivo */
+
+@media screen and (max-width: 991px) {
+    .rodape__media ul {
+        gap: 25px;
+    }
+}
