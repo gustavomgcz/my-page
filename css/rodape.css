@@ -1,0 +1,44 @@
+.rodape {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.rodape__media ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.rodape__icon {
+    display: inline;
+}
+
+.rodape__icon svg {
+    fill: #f0f0f0;
+}
+
+.rodape__media p {
+    font-size: 1.125rem;
+    text-align: center;
+}
+
+.amor {
+    animation: pulsar 1s infinite;
+    color: red;
+    display: inline-block;
+}
+
+@keyframes pulsar {
+    0% {
+        transform: scale(1.5);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1.5);
+    }
+}

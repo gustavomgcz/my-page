@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(21,127,37,1) 20%, rgba(0,230,34,1) 100%);
+    color: #f0f0f0;
+    font-family: 'Salsa', cursive;
+}
+
+.container {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+}

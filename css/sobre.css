@@ -1,0 +1,52 @@
+.sobre {
+    display: flex;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    position: relative;
+}
+
+.sobre__conteudo {
+    margin-right: 30%;
+    position: relative;
+}
+
+.sobre__conteudo h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.sobre__texto {
+    font-size: 1.25rem;
+    line-height: normal;
+    margin-bottom: .625rem;
+}
+
+.sobre__texto:last-child {
+    margin-bottom: 0;
+}
+
+.sobre__imagem--tibia {
+    display: none;
+    height: 250px;
+    left: 75%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+}
+
+
+/* Responsivo */
+
+
+@media screen and (max-width: 991px) {
+    .sobre__conteudo {
+        margin-right: 0;
+    }
+
+    .sobre__imagem--tibia {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+}
