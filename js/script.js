@@ -1,20 +1,20 @@
 const gifsTibia = [
-    '../img/Assassin Male.gif',
-    './img/Barbarian Male.gif',
-    './img/Beggar Male.gif',
-    './img/Brotherhood Female.gif',
-    './img/Brotherhood Male.gif',
-    './img/Citizen Male.gif',
-    './img/Druid Male.gif',
-    './img/Hunter Male.gif',
-    './img/Jester Male.gif',
-    './img/Knight Male.gif',
-    './img/Oriental Male.gif',
-    './img/Pirate Male.gif',
-    './img/Shaman Male.gif',
-    './img/Summoner Male.gif',
-    './img/Warrior Male.gif',
-    './img/Wizard Male.gif'
+    'img/Assassin Male.gif',
+    'img/Barbarian Male.gif',
+    'img/Beggar Male.gif',
+    'img/Brotherhood Female.gif',
+    'img/Brotherhood Male.gif',
+    'img/Citizen Male.gif',
+    'img/Druid Male.gif',
+    'img/Hunter Male.gif',
+    'img/Jester Male.gif',
+    'img/Knight Male.gif',
+    'img/Oriental Male.gif',
+    'img/Pirate Male.gif',
+    'img/Shaman Male.gif',
+    'img/Summoner Male.gif',
+    'img/Warrior Male.gif',
+    'img/Wizard Male.gif'
 ]
 
 const cursorTibia = document.querySelectorAll('.tibia')
