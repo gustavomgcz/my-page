@@ -23,7 +23,7 @@ const imagemTibia = document.querySelector('.sobre__imagem--tibia')
 cursorTibia.forEach(elemento => {
    
     elemento.addEventListener("mouseover", function() {
-        const aleatorio = Math.floor(Math.random() * 16)
+        const aleatorio = Math.floor(Math.random() * 15)
         imagemTibia.src = gifsTibia[aleatorio]
         imagemTibia.style.display = "inline"
     })
